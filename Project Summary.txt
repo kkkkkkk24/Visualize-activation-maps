@@ -1,0 +1,43 @@
+Project Summary: Age Detection with CNN & Activation Map Visualization
+🔍 Objective:
+To build a Convolutional Neural Network (CNN) model that predicts a person's age from facial images using the UTKFace dataset and visualizes activation maps to understand which facial regions influence model predictions.
+
+🏗️ Methodology:
+Dataset Used: UTKFace (images labeled with age, gender, and ethnicity)
+
+Model Architecture: 3-layer CNN with ReLU activations, MaxPooling, and two fully connected layers.
+
+Loss Function: Mean Squared Error (MSE) for age regression.
+
+Optimizer: Adam
+
+Activation Map Visualization: Captured outputs of intermediate convolutional layers to show which parts of the face the CNN focuses on.
+
+📈 Results:
+Achieved reasonable training loss and age prediction performance (exact metrics can be filled post-evaluation).
+
+Visualized activation maps clearly showing the network's attention on facial features like eyes, forehead, and mouth.
+
+Demonstrated how CNN filters evolve in depth to extract abstract features.
+
+📊 Evaluation Metrics:
+Accuracy (within ±5 years): [Insert value]
+
+Mean Absolute Error (MAE): [Insert value]
+
+Confusion Matrix, Precision, and Recall for grouped age categories (0–20, 21–40, 41–60, 60+)
+
+📂 Deliverables:
+Jupyter Notebook for training and visualization
+
+Saved model and weights (.pt)
+
+Activation maps saved as .png files
+
+requirements.txt for reproducibility
+
+GitHub repository with organized code and documentation
+
+🔗 GitHub Repo:
+[Insert your GitHub link here]
+
